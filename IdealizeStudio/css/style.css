@@ -27,9 +27,12 @@ body {
 .format_text_1 {
 color: white;
 font-weight: 700;
-
-
 }
+.format_text_2 {
+color: white;
+font-family:"Poppins", sans-serif;
+}
+
 
 
 
