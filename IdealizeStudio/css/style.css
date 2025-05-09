@@ -2,8 +2,38 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #242424;
 }
+
+ canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    
+.logo_home{
+
+  width: 150px;
+}
+
+.intro_text{ 
+
+  color: white;
+  text-align: center;
+  padding-top: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .layout_padding {
   padding-top: 90px;
@@ -147,7 +177,7 @@ body {
 }
 
 .header_top {
-  background-color: #1c1c1c;
+  background-color: #ecb246;
   padding: 15px 0;
 }
 
@@ -157,7 +187,7 @@ body {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content:center;
 }
 
 .header_top .contact_link-container a {
@@ -193,8 +223,6 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 0;
-  padding: 35px 15px 10px 15px;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
