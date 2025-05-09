@@ -15,30 +15,74 @@ body {
 .logo_home{
 
   width: 150px;
+   transition: transform 0.5s ease;
+}
+
+.logo_home:hover{
+
+   transform: rotateY(25deg) rotateX(5deg) translateX(15px);
 }
 
 .intro_text{ 
-
+ width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
   color: white;
   text-align: center;
   padding-top: 15%;
+  
 }
+
+.monospace{
+font-family:monospace;
+}
+
+
 
 .format_text_1 {
+  font-size: 1.25rem;
 color: white;
 font-weight: 700;
+padding-bottom: 1rem;
+font-family:monospace;
 }
 .format_text_2 {
-color: white;
-font-family:"Poppins", sans-serif;
+color: rgb(187, 187, 187);
+
+}
+
+.title_format_1{
+
+  font-weight: 700;
+  color:#ecb246;
+  text-transform: uppercase;
+}
+
+.col.direita{
+
+padding-top: 10rem;
+}
+
+.image_quemsomos{
+  width: 50%;
+  padding-bottom: 2rem;
+
 }
 
 
+.pers{
+  font-family:monospace;
+}
 
+.header_bottom{
+  padding-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  transform: scale(80%);
 
-
-
-
+}
 
 
 
@@ -89,9 +133,9 @@ font-family:"Poppins", sans-serif;
 
 .heading_container h2::before {
   content: "";
-  width: 40px;
+  width: 70px;
   height: 7px;
-  background-color: #f1db25;
+  background-color: #181818;;
   border-radius: 10px;
   position: absolute;
   bottom: 0;
@@ -240,7 +284,9 @@ font-family:"Poppins", sans-serif;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  background-color: #1c1c1c;
+  color: #ecb246;
+  transform: rotateY(25deg) rotateX(5deg) translateX(5px);
+  transition: transform 0.5s ease;
 }
 
 a,
@@ -506,11 +552,13 @@ a:focus {
 }
 
 .service_section {
-  background-color: #1c1c1c;
+  background-color: #ecb246;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
 }
 
 .service_section .heading_container {
-  color: #ffffff;
+  color: #1a1a1a;
 }
 
 .service_section .box {
