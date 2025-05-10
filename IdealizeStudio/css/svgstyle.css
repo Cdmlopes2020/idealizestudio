@@ -1,0 +1,78 @@
+
+
+
+      .cls-2 {
+        fill: black;
+      }
+      
+
+      .cls-3 {
+        fill: black;
+      }
+      
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke: black;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: black;
+      }
+
+      .cls-4 {
+        stroke-width: 2px;
+      }
+
+  
+      
+      .cls-7 {
+        fill: black;
+      }
+
+      .cls-8 {
+        fill: black;
+      }
+    
+     
+
+      .cls-10 {
+        fill: black;
+      }
+
+      .cls-11 {
+        fill: black;
+      }
+      
+    
+      
+
+      .cls-16 {
+        stroke: black;
+      }
+
+      .cls-16, .cls-17 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-17 {
+        stroke: black;
+      }
+ 
+     #svg1:hover{
+      scale: 90%;
+     }
+     #svg2:hover{
+      scale: 90%;
+     }
+     #svg3:hover{
+      scale: 90%;
+     }
+     #svg4:hover{
+      scale: 90%;
+     }
+     #svg5:hover{
+      scale: 90%;
+     }

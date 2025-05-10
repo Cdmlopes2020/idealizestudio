@@ -18,6 +18,7 @@ body {
    transition: transform 0.5s ease;
 }
 
+
 .logo_home:hover{
 
    transform: rotateY(25deg) rotateX(5deg) translateX(15px);
@@ -39,6 +40,11 @@ body {
 font-family:monospace;
 }
 
+.title_services{
+  font-weight: 700;
+  text-align: center;
+}
+
 
 
 .format_text_1 {
@@ -50,7 +56,31 @@ font-family:monospace;
 }
 .format_text_2 {
 color: rgb(187, 187, 187);
+}
 
+.services_div {
+  width: 35%;
+  height: 35%;
+  display: flex;
+  justify-content: center;   
+  align-items: center;      
+}
+
+
+.services_h3{
+color:black;
+text-align: center;
+font-weight: 700;
+font-size: 1rem;
+
+}
+
+.services_h3:hover{
+color:white;
+text-align: center;
+font-weight: 700;
+font-size: 1rem;
+text-decoration: underline;
 }
 
 .title_format_1{
@@ -552,9 +582,16 @@ a:focus {
 }
 
 .service_section {
-  background-color: #ecb246;
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
+background: linear-gradient(180deg,rgba(236, 178, 70, 1) 0%, rgba(236, 178, 70, 0.9) 100%);
+
+margin-top: 5%;
+}
+
+
+.about_services{
+  color: rgb(27, 27, 27);
+  font-family: monospace;
+  text-align: center;
 }
 
 .service_section .heading_container {
@@ -562,11 +599,8 @@ a:focus {
 }
 
 .service_section .box {
-  background-color: #ffffff;
-  padding: 25px 15px;
+
   text-align: center;
-  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
   margin-top: 45px;
 }
 
