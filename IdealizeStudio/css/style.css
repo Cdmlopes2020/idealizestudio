@@ -81,9 +81,63 @@ margin-bottom: 15%;
   margin-left: auto;
   color: white;
   text-align: center;
-  padding-top: 20%;
-  
+  padding-top: 20%; 
 }
+
+.politica{ 
+ width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  text-align: center;
+  padding-top: 3%; 
+  padding-bottom: 5%; 
+  font-weight: 600;
+}
+
+.pprivacidade{
+  color: white;
+  padding-bottom: 10%;
+}
+.pprivacidade h2{
+  font-weight: 600;
+  padding-bottom: 2%;
+  font-size: 1.5rem;
+}
+
+.special{ 
+  color: #000000 !important;
+  background-color: white;
+  font-weight: 600;
+  margin-left: 1rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.special:hover{ 
+  color:#ecb246 !important;
+  background-color:transparent;
+  border: 1px solid;
+ 
+  font-weight: 600;
+  margin-left: 1rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.linkmeu{
+
+  color: white;
+  text-decoration: underline;
+}
+
+.linkmeu:hover{
+
+  color:#ecb246;
+  text-decoration: underline;
+}
+
 .center{ 
 text-align: center;
 }
@@ -151,6 +205,12 @@ color: rgb(187, 187, 187);
 .services_h3{
 color:black;
 text-align: center;
+font-weight: 700;
+font-size: 1rem;
+
+}
+.services_h32{
+color:#ecb246;
 font-weight: 700;
 font-size: 1rem;
 
@@ -664,6 +724,11 @@ margin-top: 5%;
   color: rgb(27, 27, 27);
   font-family: monospace;
   text-align: center;
+}
+
+.about_services2{
+  color: rgb(255, 255, 255);
+  font-family: monospace;
 }
 
 .service_section .heading_container {
