@@ -955,28 +955,23 @@ margin-top: 5%;
   color: #c2c2c2;
  
 }
-
-.popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
 .popup-content {
-  background-color: black;
+  background: rgba(0, 0, 0, 0.1); /* Transparência */
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 16px;
   text-align: center;
   max-width: 400px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);          /* Efeito de desfoque */
+  -webkit-backdrop-filter: blur(10px);  /* Suporte para Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Borda suave */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);  /* Sombra leve */
+  color: white;
 }
+
+
+
+
 
 .popup button {
   margin-top: 1rem;
@@ -984,6 +979,16 @@ margin-top: 5%;
   background-color: #ecb246;
   color: white;
   border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #00000000;
+  color:#ffffff;
+  border: solid 1px;
   border-radius: 5px;
   cursor: pointer;
 }
