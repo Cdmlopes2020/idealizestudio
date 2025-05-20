@@ -30,7 +30,7 @@ body {
   opacity: 0;
   animation: slideUp 0.5s ease-out forwards;
   animation-delay: 1s;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 @keyframes slideUp {
