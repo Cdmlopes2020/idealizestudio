@@ -13,7 +13,12 @@
     },
     "Body":
     {
-        "Services": "Services",
-        "Brand": "YOUR BRAND?"
+        "Intro": {
+            "Brand": "YOUR BRAND?",
+            "NextProject": "OUR NEXT PROJECT!!",
+            "NextProjectText1": "We bring ideas to life and help businesses grow in the digital world.",
+            "NextProjectText2": "Company specialized in customized solutions."
+        },
+        "Services": "Services"
     }
 }
