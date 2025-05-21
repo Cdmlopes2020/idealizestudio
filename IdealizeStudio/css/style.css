@@ -1145,7 +1145,7 @@ margin-top: 5%;
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 /* end footer section*/
