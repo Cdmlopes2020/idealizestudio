@@ -3,6 +3,7 @@ let translations = {};
 async function setLanguage(lang) {
   const res = await fetch(`locales/${lang}.json`);
   translations = await res.json();
+  localStorage.setItem('lang', lang); // <-- guarda aqui
   translatePage();
 }
 
