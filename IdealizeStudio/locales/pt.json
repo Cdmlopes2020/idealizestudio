@@ -11,6 +11,12 @@
         "Project": "Fale-nos do seu projeto"
     },
     "Body": {
+        "Intro": {
+            "Brand": "A TUA MARCA?",
+            "NextProject": "O NOSSO PRÓXIMO PROJETO!!",
+            "NextProjectText1": "Damos vida às ideias e ajudamos negócios a crescer no mundo digital.",
+            "NextProjectText2": "Empresa especializada em soluções personalizadas."
+        },
         "Services": "Serviços"
     }
 }
