@@ -2,9 +2,12 @@ const form = document.getElementById('contact-form');
 const respostaDiv = document.getElementById('resposta');
 const popup = document.getElementById('popup');
 const botaoFechar = document.getElementById('fechar-popup');
+const spinner = document.getElementById('spinner-overlay');
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
+
+  spinner.classList.remove('hidden'); // Mostra o spinner
 
   const formData = new FormData(form);
   const data = {
@@ -17,6 +20,7 @@ form.addEventListener('submit', async (e) => {
   if (!data.recaptchaToken) {
     respostaDiv.innerText = 'Por favor, confirme que não é um robô.';
     popup.classList.remove('hidden');
+    spinner.classList.add('hidden'); // Esconde o spinner
     return;
   }
 
@@ -41,6 +45,8 @@ form.addEventListener('submit', async (e) => {
     console.error('Erro ao enviar:', error);
     respostaDiv.innerText = 'Erro ao enviar o formulário.';
     popup.classList.remove('hidden');
+  } finally {
+    spinner.classList.add('hidden'); // Esconde o spinner no fim
   }
 });
 
