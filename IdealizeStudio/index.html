@@ -46,11 +46,22 @@
           </div>
         </div>
       </div>
+
+      <h1 data-i18n="welcome"></h1>
+      <nav>
+        <a href="#" data-i18n="about"></a>
+        <a href="#" data-i18n="contact"></a>
+      </nav>
+
+      <!-- Botões para trocar de idioma -->
+      <button onclick="setLanguage('pt')">🇵🇹</button>
+      <button onclick="setLanguage('en')">🇬🇧</button>
+
       <canvas id="noiseCanvas"></canvas>
       <div class="header_bottom">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="/">
               <img class="logo_home" src="images/Simple_500pxbranco.png">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -606,7 +617,8 @@
               </div>
               <div> <label>
                   <input type="checkbox" name="checkbox" required />
-                  Concordo com os termos e condições descritos na <a href="politicaprivacidade.html" class="linkmeu">política de privacidade.  </a>
+                  Concordo com os termos e condições descritos na <a href="politicaprivacidade.html"
+                    class="linkmeu">política de privacidade. </a>
                 </label>
               </div>
               <div class="g-recaptcha" data-sitekey="6LecyTsrAAAAAOfLNDtWil6vuUy0Ehp4GTP25Ch3"></div>
@@ -710,6 +722,7 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
+  <script src="/js/lang.js"></script>
   <!-- Recaptcha -->
   <!--<script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>-->
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
