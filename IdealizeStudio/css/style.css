@@ -224,31 +224,21 @@ font-size: 1rem;
 text-decoration: underline;
 }
 
-
-
 .col.direita{
 
 padding-top: 10rem;
 }
-
-
-
 
 .pers{
   font-family:monospace;
 }
 
 .header_bottom{
-  padding-top: 2%;
+  /*padding-top: 2%;
   margin-left: 5%;
-  margin-right: 5%;
-  transform: scale(80%);
-
+  margin-right: 5%;*/
+  transform: scale(90%);
 }
-
-
-
-
 
 .layout_padding {
   padding-top: 90px;
