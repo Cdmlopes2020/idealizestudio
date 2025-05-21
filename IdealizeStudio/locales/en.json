@@ -1,5 +1,8 @@
 {
-  "welcome": "Welcome",
-  "contact": "Contact",
-  "about": "About Us"
+    "Language": "Language",
+    "Portuguese": "Portuguese",
+    "English": "English",
+    "welcome": "Welcome",
+    "contact": "Contact",
+    "about": "About Us"
 }
