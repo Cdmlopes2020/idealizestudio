@@ -1,8 +1,15 @@
 {
-    "Language": "Language",
-    "Portuguese": "Portuguese",
-    "English": "English",
-    "welcome": "Welcome",
-    "contact": "Contact",
-    "about": "About Us"
+    "Navbar":
+    {
+        "Language": "Language",
+        "Portuguese": "Portuguese",
+        "English": "English",
+        "Welcome": "Welcome",
+        "Contact": "Contact",
+        "About": "About Us"
+    },
+    "Body":
+    {
+        "Services": "Services"
+    }
 }

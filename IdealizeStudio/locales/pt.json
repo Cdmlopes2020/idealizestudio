@@ -1,8 +1,13 @@
 {
-    "Language": "Língua",
-    "Portuguese": "Português",
-    "English": "Inglês",
-    "welcome": "Bem-vindo",
-    "contact": "Contacto",
-    "about": "Sobre Nós"
+    "Navbar": {
+        "Language": "Língua",
+        "Portuguese": "Português",
+        "English": "Inglês",
+        "Welcome": "Bem-vindo",
+        "Contact": "Contacto",
+        "About": "Sobre Nós"
+    },
+    "Body": {
+        "Services": "Serviços"
+    }
 }
