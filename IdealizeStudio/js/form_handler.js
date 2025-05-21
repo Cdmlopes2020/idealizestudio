@@ -1,22 +1,22 @@
-const spinner = document.getElementById('spinner-overlay');
+const form = document.getElementById('contact-form');
+const respostaDiv = document.getElementById('resposta');
+const popup = document.getElementById('popup');
+const botaoFechar = document.getElementById('fechar-popup');
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
-
-  //spinner.classList.remove('hidden'); // Mostra o spinner
 
   const formData = new FormData(form);
   const data = {
     nome: formData.get('name'),
     email: formData.get('email'),
     mensagem: formData.get('message'),
-    recaptchaToken: grecaptcha.getResponse()
+    recaptchaToken: grecaptcha.getResponse() // token do Google reCAPTCHA
   };
 
   if (!data.recaptchaToken) {
     respostaDiv.innerText = 'Por favor, confirme que não é um robô.';
     popup.classList.remove('hidden');
-    //spinner.classList.add('hidden'); // Esconde o spinner
     return;
   }
 
@@ -35,13 +35,15 @@ form.addEventListener('submit', async (e) => {
 
     if (response.ok) {
       form.reset();
-      grecaptcha.reset();
+      grecaptcha.reset(); // limpa o reCAPTCHA
     }
   } catch (error) {
     console.error('Erro ao enviar:', error);
     respostaDiv.innerText = 'Erro ao enviar o formulário.';
     popup.classList.remove('hidden');
-  } finally {
-    //spinner.classList.add('hidden'); // Esconde o spinner no fim
   }
+});
+
+botaoFechar.addEventListener('click', () => {
+  popup.classList.add('hidden');
 });
