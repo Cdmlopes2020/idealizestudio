@@ -3,7 +3,7 @@ const spinner = document.getElementById('spinner-overlay');
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
-  spinner.classList.remove('hidden'); // Mostra o spinner
+  //spinner.classList.remove('hidden'); // Mostra o spinner
 
   const formData = new FormData(form);
   const data = {
@@ -16,7 +16,7 @@ form.addEventListener('submit', async (e) => {
   if (!data.recaptchaToken) {
     respostaDiv.innerText = 'Por favor, confirme que não é um robô.';
     popup.classList.remove('hidden');
-    spinner.classList.add('hidden'); // Esconde o spinner
+    //spinner.classList.add('hidden'); // Esconde o spinner
     return;
   }
 
@@ -42,6 +42,6 @@ form.addEventListener('submit', async (e) => {
     respostaDiv.innerText = 'Erro ao enviar o formulário.';
     popup.classList.remove('hidden');
   } finally {
-    spinner.classList.add('hidden'); // Esconde o spinner no fim
+    //spinner.classList.add('hidden'); // Esconde o spinner no fim
   }
 });
