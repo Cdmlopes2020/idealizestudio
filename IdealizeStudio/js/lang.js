@@ -15,6 +15,8 @@ function translatePage() {
       el.innerText = value;
     }
   });
+  // Guarda no localStorage (opcional)
+  localStorage.setItem('lang', lang);
 }
 
 // Suporte para chaves aninhadas tipo "Navbar.Portuguese"
@@ -22,7 +24,8 @@ function getNestedTranslation(key) {
   return key.split('.').reduce((obj, k) => (obj && obj[k] ? obj[k] : null), translations);
 }
 
-// Carrega o idioma padrão ao entrar na página
-window.addEventListener('DOMContentLoaded', () => {
-  setLanguage('pt'); // ou 'en' como padrão
+// Carrega idioma salvo ou padrão
+document.addEventListener('DOMContentLoaded', () => {
+  const savedLang = localStorage.getItem('lang') || 'pt';
+  setLanguage(savedLang);
 });
