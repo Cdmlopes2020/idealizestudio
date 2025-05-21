@@ -5,7 +5,10 @@
         "English": "Inglês",
         "Welcome": "Bem-vindo",
         "Contact": "Contacto",
-        "About": "Sobre Nós"
+        "About": "Quem somos?",
+        "Services": "Serviços",
+        "Portfolio": "Portfólio",
+        "Project": "Fale-nos do seu projeto"
     },
     "Body": {
         "Services": "Serviços"

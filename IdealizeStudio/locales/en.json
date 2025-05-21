@@ -6,7 +6,10 @@
         "English": "English",
         "Welcome": "Welcome",
         "Contact": "Contact",
-        "About": "About Us"
+        "About": "Who are we?",
+        "Services": "Services",
+        "Portfolio": "Portfolio",
+        "Project": "Tell us about your project"
     },
     "Body":
     {
