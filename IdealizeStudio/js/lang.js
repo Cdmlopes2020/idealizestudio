@@ -1,20 +1,28 @@
+let translations = {};
+
 async function setLanguage(lang) {
-  const response = await fetch(`/locales/${lang}.json`);
-  const translations = await response.json();
-
-  document.querySelectorAll('[data-i18n]').forEach(el => {
-    const key = el.getAttribute('data-i18n');
-    if (translations[key]) {
-      el.innerText = translations[key];
-    }
-  });
-
-  // Guarda no localStorage (opcional)
-  localStorage.setItem('lang', lang);
+  const res = await fetch(`locales/${lang}.json`);
+  translations = await res.json();
+  translatePage();
 }
 
-// Carrega idioma salvo ou padrão
-document.addEventListener('DOMContentLoaded', () => {
-  const savedLang = localStorage.getItem('lang') || 'pt';
-  setLanguage(savedLang);
+function translatePage() {
+  const elements = document.querySelectorAll('[data-i18n]');
+  elements.forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    const value = getNestedTranslation(key);
+    if (value) {
+      el.innerText = value;
+    }
+  });
+}
+
+// Suporte para chaves aninhadas tipo "Navbar.Portuguese"
+function getNestedTranslation(key) {
+  return key.split('.').reduce((obj, k) => (obj && obj[k] ? obj[k] : null), translations);
+}
+
+// Carrega o idioma padrão ao entrar na página
+window.addEventListener('DOMContentLoaded', () => {
+  setLanguage('pt'); // ou 'en' como padrão
 });
