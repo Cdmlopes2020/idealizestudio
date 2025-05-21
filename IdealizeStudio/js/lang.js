@@ -16,8 +16,6 @@ function translatePage() {
       el.innerText = value;
     }
   });
-  // Guarda no localStorage (opcional)
-  localStorage.setItem('lang', lang);
 }
 
 // Suporte para chaves aninhadas tipo "Navbar.Portuguese"
