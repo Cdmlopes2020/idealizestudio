@@ -18,48 +18,57 @@ body {
    transition: transform 0.5s ease;
 }
 
-/*ANIMAÇÃO INICIAL TEXTO DE BAIXO */
-.text-wrapper {
-  overflow: hidden;         /* "Máscara" para cortar o que está fora */
-  height: 100%;            /* Ajusta para altura do texto */
-  display: inline-block;
+.intro_bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+  z-index: -1;
 }
 
-.reveal-text {
-  transform: translateY(100%);
-  opacity: 0;
-  animation: slideUp 0.5s ease-out forwards;
-  animation-delay: 1s;
-  font-size: 3rem;
+/* ÍNICIO DA FORMATAÇÃO DA BARRA DE 20% DE DESCONTO*/
+.imagem_container {
+  position: relative;
+  width: 100%;
+  height: auto; /* ou define altura fixa se quiseres mais controlo */
+  margin-bottom: 2%;
 }
 
-@keyframes slideUp {
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+.anuncio_texto{
+ position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 80%;
+  color: white;
+  text-align: center;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.6); /* fundo semi-transparente para legibilidade */
+  padding: 1rem 2rem;
+  width: 100%;
+  max-width: 100vw;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/*ANIMAÇÃO INICIAL TEXTO DE CIMA */
-.text-wrapper2 {
-  overflow: hidden;         /* "Máscara" para cortar o que está fora */
-  height: 100%;            /* Ajusta para altura do texto */
-  display: inline-block;
+.fechar_anuncio {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1001;
 }
 
-.reveal-text2 {
-  transform: translateY(-100%);
-  opacity: 0;
-  animation: slideUp2 0.5s ease-out forwards;
-  font-size: 4rem;
-}
+/* FIM DA FORMATAÇÃO DA BARRA DE 20% DE DESCONTO*/
 
-@keyframes slideUp2 {
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
+
 
 
 .sobrenos{

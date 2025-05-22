@@ -36,4 +36,9 @@
     resizeCanvas();
 
 
+  function fecharAnuncio() {
+    const anuncio = document.getElementById('anuncio');
+    anuncio.style.display = 'none';
+  }
+
 

@@ -35,16 +35,14 @@
     <!-- header section strats -->
 
     <header class="header_section">
-      <div class="header_top">
-        <div class="container-fluid">
-          <div class="contact_link-container">
-            <span class="anuncio-texto">
-              🔥 20% Desconto no Primeiro Projeto! 🔥
-            </span>
-
-          </div>
-        </div>
-      </div>
+     
+      <div class="imagem_container">
+  <p class="anuncio_texto" id="anuncio">
+    🔥 20% Desconto no Primeiro Projeto! 🔥
+    <button class="fechar_anuncio" onclick="fecharAnuncio()">✕</button>
+  </p>
+</div>
+      
 
       <canvas id="noiseCanvas"></canvas>
       <div class="header_bottom">
@@ -72,10 +70,16 @@
                 <li class="nav-item ">
                   <a class="nav-link special rounded-pill" href="#formcontacto" data-i18n="Navbar.Project"></a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown ">
                   <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-i18n="Navbar.Language">
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                    <span data-i18n="Navbar.Language"></span>
+                    <span class="fa fa-globe"></span>
                   </a>
+
+
+
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="languageDropdown">
                     <button class="dropdown-item" onclick="setLanguage('pt')">
                       <img src="images/flags/pt.svg" alt="Português" width="20" class="mr-2">
@@ -97,17 +101,11 @@
     <div class="container">
       <div class="intro_text">
 
-        <div class="text-wrapper2 row">
-          <h1 class="reveal-text2" data-i18n="Body.Intro.Brand"></h1>
-          <h1 class="cursor"></h1>
-        </div>
-
-        <div class="text-wrapper row">
-          <br>
-          <h1 class="reveal-text" data-i18n="Body.Intro.NextProject"></h1>
-        </div>
-        <h5 class="monospace" data-i18n="Body.Intro.NextProjectText1"></h5>
-        <h5 class="monospace" data-i18n="Body.Intro.NextProjectText2"></h5>
+          <img src="images/back.jpg" class="intro_bg-img" alt="Imagem de fundo">
+          <h1  data-i18n="Body.Intro.Brand"></h1>
+          <h1  data-i18n="Body.Intro.NextProject"></h1>
+          <h5 class="monospace" data-i18n="Body.Intro.NextProjectText1"></h5>
+          <h5 class="monospace" data-i18n="Body.Intro.NextProjectText2"></h5>
       </div>
 
     </div>
