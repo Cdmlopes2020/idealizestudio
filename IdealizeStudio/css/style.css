@@ -155,13 +155,20 @@ text-align: center;
 .image_quemsomos{
   width: 50%;
   padding-bottom: 4rem;
+
  
 }
 
 .image_quemsomos2{
 width: 75%;
-padding-top: 7%;
- 
+padding: 2rem;
+border-radius: 15%;
+text-align: center;
+}
+
+.image_quemsomos2:hover {
+  transform: scale(1.05);
+
 }
 
 .title_format_1{

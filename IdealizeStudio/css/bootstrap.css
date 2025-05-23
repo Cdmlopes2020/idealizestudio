@@ -153,13 +153,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #ffffff;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #9b9b9b;
   text-decoration: underline;
 }
 
@@ -4998,12 +4998,12 @@ a.badge-secondary:focus, a.badge-secondary.focus {
 
 .badge-success {
   color: #fff;
-  background-color: #28a745;
+  background-color: #a78928;
 }
 
 a.badge-success:hover, a.badge-success:focus {
   color: #fff;
-  background-color: #1e7e34;
+  background-color: #c0a615;
 }
 
 a.badge-success:focus, a.badge-success.focus {
