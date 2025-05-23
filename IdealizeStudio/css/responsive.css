@@ -117,7 +117,26 @@
 
 @media (max-width: 480px) {}
 
-@media (max-width: 420px) {}
+@media (max-width: 420px) {
+
+  h1, .h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+ h5, .h5 {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+ h2, .h2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.anuncio_texto{
+  font-size: 40%;
+}
 
 @media (max-width: 376px) {}
 
