@@ -1,24 +1,53 @@
 {
-    "Navbar":
-    {
+    "Navbar": {
         "Language": "Language",
         "Portuguese": "Portuguese",
         "English": "English",
         "Welcome": "Welcome",
         "Contact": "Contact",
-        "About": "Who are we?",
+        "About": "About Us",
         "Services": "Services",
         "Portfolio": "Portfolio",
         "Project": "Tell us about your project"
     },
-    "Body":
-    {
+    "Body": {
         "Intro": {
             "Brand": "YOUR BRAND?",
             "NextProject": "OUR NEXT PROJECT!!",
             "NextProjectText1": "We bring ideas to life and help businesses grow in the digital world.",
-            "NextProjectText2": "Company specialized in customized solutions."
+            "NextProjectText2": "A company specialized in custom solutions."
         },
-        "Services": "Services"
+        "About": {
+            "Title1": "Development with ",
+            "Title2": "creativity!",
+            "Aboutus": "WHO ARE WE?",
+            "Aboutus2": "We don’t have a garage full of classic cars, but we’ve got something better: the drive to make things happen. We’re three young people with a knack for creativity, technology, and that “what if we did it differently?” mindset. We build brands from top to bottom — from the logo to the last pixel on the site — with sharp strategies, custom-built software, and solutions that don’t come with complicated manuals.",
+            "Brand": "OUR BRAND",
+            "Brand2": "It was born out of the will to do things differently — and better. It’s not just a pretty name or a slick logo. It’s attitude, vision, and a desire to create meaningful things. Our brand reflects what we believe in: purposeful design, soulful strategy, and digital solutions that truly help brands grow."
+        },
+        "Services": {
+            "Title": "WHAT DO WE DO?",
+            "Design": "GRAPHIC DESIGN & BRANDING",
+            "Design2": "Lines, colours, shapes... sounds simple, right? But behind every memorable logo and striking visual identity, there’s strategy, intuition, and a sharp eye. We create brands that tell stories, designs that breathe purpose, and visuals that stick. From first sketch to brand manual, we give your brand a face, a voice, and an attitude — no clichés, no copy-paste. Just authenticity with style.",
+            "Web": "WEB & APPS",
+            "Web2": "HTML, CSS, React, WordPress, Shopify... sounds like magic? Maybe. But for us, it’s the language we use to build digital worlds. Here, we create dazzling websites, online stores that sell on their own, and apps that make your fingers want to dance. If you can imagine it, we can bring it to life — with a touch of magic (and a lot of code behind the scenes).",
+            "Marketing": "MARKETING & ADVERTISING",
+            "Marketing2": "Posts, ads, emails, algorithms... sounds like chaos, but for us it’s pure strategy. We connect brands to people with eye-catching ideas and unforgettable campaigns. From concept to click, we craft messages that sell, content that speaks, and movements that make an impact. We don’t shout — we communicate with purpose. Because in a noisy world, we know how to make your brand heard.",
+            "Consulting": "CONSULTING & SUPPORT",
+            "Consulting2": "Feel like your brand could do more but don’t know where to start? We do. We help you align vision, strategy, and digital presence so your business speaks louder — and clearer. We analyze, adjust, and carve out purposeful paths. If something breaks, we fix it. If you don’t know what’s wrong, we find out. Our team is ready to solve problems with speed, precision, and that confidence only those who master the system can offer.",
+            "Social": "SOCIAL MEDIA",
+            "Social2": "Scroll, like, share, comment — everything happens in a blink on social media. That’s your brand’s moment to shine. We create content that stops the scroll, sparks conversations, and builds real connections. We plan, write, design, and manage your social networks with strategy, consistency, and creativity. Because today, if you’re not communicating, you don’t exist — and we’ll make sure your presence is felt, every day. Hit the bell!"
+        },
+        "Form": {
+            "Title": "Ready to get ideas moving?",
+            "About": "Got a project in mind (or just a creative mess of ideas)? Talk to us. We’re ready to turn your ‘what if...’ into a ‘done!’. The first step is simple: fill out the form — we’ll handle the rest.",
+            "Title2": "Tell us more about your project!",
+            "Name": "Name",
+            "Email": "Email",
+            "Message": "Message",
+            "Policies": "I agree with the terms and conditions described in the",
+            "Policies2": "privacy policy.",
+            "Submit": "Send"
+        }
     }
 }

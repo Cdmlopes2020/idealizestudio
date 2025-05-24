@@ -35,14 +35,14 @@
     <!-- header section strats -->
 
     <header class="header_section">
-     
+
       <div class="imagem_container">
-  <p class="anuncio_texto" id="anuncio">
-    🔥 20% Desconto no Primeiro Projeto! 🔥
-    <button class="fechar_anuncio" onclick="fecharAnuncio()">✕</button>
-  </p>
-</div>
-      
+        <p class="anuncio_texto" id="anuncio">
+          🔥 20% Desconto no Primeiro Projeto! 🔥
+          <button class="fechar_anuncio" onclick="fecharAnuncio()">✕</button>
+        </p>
+      </div>
+
 
       <canvas id="noiseCanvas"></canvas>
       <div class="header_bottom">
@@ -101,11 +101,11 @@
     <div class="container">
       <div class="intro_text">
 
-          <img src="images/back.jpg" class="intro_bg-img" alt="Imagem de fundo">
-          <h1  data-i18n="Body.Intro.Brand"></h1>
-          <h1  data-i18n="Body.Intro.NextProject"></h1>
-          <h5 class="monospace" data-i18n="Body.Intro.NextProjectText1"></h5>
-          <h5 class="monospace" data-i18n="Body.Intro.NextProjectText2"></h5>
+        <img src="images/back.jpg" class="intro_bg-img" alt="Imagem de fundo">
+        <h1 data-i18n="Body.Intro.Brand"></h1>
+        <h1 data-i18n="Body.Intro.NextProject"></h1>
+        <h5 class="monospace" data-i18n="Body.Intro.NextProjectText1"></h5>
+        <h5 class="monospace" data-i18n="Body.Intro.NextProjectText2"></h5>
       </div>
 
     </div>
@@ -115,21 +115,16 @@
     <div class="row">
       <div class="col center ">
         <img class="image_quemsomos" src="images/Simple_500pxbranco.png">
-        <h2 class="title_format_1"> Desenvolvimento com <br> <b>criatividade! </b></h2>
+        <h2 class="title_format_1" data-i18n="Body.About.Title1"></h2>
+        <h2 class="title_format_1" data-i18n="Body.About.Title2"></h2>
         <img class="image_quemsomos2" src="images/ChatGPT Image 13_05_2025, 22_05_47.png">
       </div>
       <div class="col direita">
-        <h3 class="format_text_1"> QUEM SOMOS?</h3>
-        <p class="format_text_2"> Não temos uma garagem com grandes clássicos, mas temos algo melhor: vontade de fazer
-          acontecer. Somos dois jovens com queda para a criatividade, a tecnologia e o “e se fizéssemos diferente?”.
-          Trabalhamos marcas de cima a baixo, do logótipo ao último pixel do site, com estratégias afinadas, softwares
-          personalizados e soluções que não vêm com manuais complicados.</p>
+        <h3 class="format_text_1" data-i18n="Body.About.Aboutus"> </h3>
+        <p class="format_text_2" data-i18n="Body.About.Aboutus2"> </p>
 
-        <h3 class="format_text_1"> A NOSSA MARCA</h3>
-        <p class="format_text_2"> Nasceu da vontade de fazer diferente — e melhor. Não é só um nome bonito nem um
-          logótipo com bom ar. É atitude, visão e vontade de criar coisas com impacto. A nossa marca é reflexo daquilo
-          em que acreditamos: design com propósito, estratégia com alma e soluções digitais que realmente ajudam marcas
-          a crescer. </p>
+        <h3 class="format_text_1" data-i18n="Body.About.Brand"> </h3>
+        <p class="format_text_2" data-i18n="Body.About.Brand2"> </p>
       </div>
     </div>
   </div>
@@ -148,14 +143,14 @@
   <section id="services" class="service_section layout_padding ">
     <div class="container">
       <div class="heading_center">
-        <h3 class="title_services">
-          O QUE FAZEMOS!?
+        <h3 class="title_services" data-i18n="Body.Services.Title">
+
         </h3>
       </div>
 
       <div class="row">
 
-        <!-- SERVICE 1-->
+        <!-- SERVICE 1 DESIGN GRÁFICO-->
         <div class="col-md-4 ">
           <div class=" box">
             <svg id="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.48 187.32" width="150" height="150">
@@ -179,16 +174,12 @@
               </g>
             </svg>
           </div>
-          <h3 class="services_h3"> DESIGN GRÁFICO & BRANDING</h3>
-          <p class="about_services">Linhas, cores, formas… parece simples. Mas por trás de cada logótipo memorável e
-            cada identidade visual marcante, há estratégia, intuição e muito olho clínico. Criamos marcas que contam
-            histórias, designs que respiram propósito e imagens que ficam na memória. Do primeiro rabisco ao manual de
-            marca, damos cara, voz e atitude à tua marca — sem clichés, sem copiar ninguém. Só autenticidade com estilo.
-          </p>
+          <h3 class="services_h3" data-i18n="Body.Services.Design"> </h3>
+          <p class="about_services" data-i18n="Body.Services.Design2"></p>
 
 
         </div>
-        <!-- SERVICE 2-->
+        <!-- SERVICE 2 WEB E APPS -->
         <div class="col-md-4">
           <div class="box ">
 
@@ -207,11 +198,8 @@
             </svg>
 
           </div>
-          <h3 class="services_h3"> WEB & APPS</h3>
-          <p class="about_services">HTML, CSS, React, WordPress, Shopify… parece magia? Para muitos, sim. Para nós, é a
-            linguagem com que construímos universos digitais. Daqui nascem sites que brilham, lojas online que vendem
-            sozinhas e apps que até fazem os dedos querer dançar. Se consegues imaginá-lo, nós damos-lhe vida no ecrã —
-            com um toque de magia (e muito código por trás).</p>
+          <h3 class="services_h3" data-i18n="Body.Services.Web"> </h3>
+          <p class="about_services" data-i18n="Body.Services.Web2"></p>
 
         </div>
 
@@ -243,14 +231,10 @@
               </g>
             </svg>
 
-
+            <!-- SERVICE 3  MARKETING E PUBLICIDADE -->
           </div>
-          <h3 class="services_h3"> MARKETING & PUBLICIDADE</h3>
-          <p class="about_services">Posts, ads, e-mails, algoritmos… parece caos, mas para nós é estratégia pura.
-            Ligamos marcas a pessoas com ideias que prendem o olhar e campanhas que ficam na cabeça (e no coração).
-            Desde o conceito até ao clique, criamos mensagens que vendem, conteúdos que contam e movimentos que marcam.
-            Não gritamos — comunicamos com intenção. Porque no meio do ruído, sabemos como fazer a tua marca ser ouvida.
-          </p>
+          <h3 class="services_h3" data-i18n="Body.Services.Marketing"> </h3>
+          <p class="about_services" data-i18n="Body.Services.Marketing2"></p>
         </div>
         <div class="col-md-2">
 
@@ -294,15 +278,10 @@
               </g>
             </svg>
 
-
           </div>
-          <h3 class="services_h3"> CONSULTORIA & ASSISTÊNCIA</h3>
-          <p class="about_services">Sentes que a tua marca podia dar mais, mas não sabes por onde começar? Nós sabemos.
-            Ajudamos-te a alinhar visão, estratégia e presença digital para que o teu negócio fale mais alto — e mais
-            claro. Analisamos, ajustamos e traçamos caminhos com propósito.
-            Se algo falha, nós reparamos. Se não sabes o que está mal, nós descobrimos. A nossa equipa está pronta para
-            resolver problemas com rapidez, precisão e aquele toque de confiança que só quem domina o sistema pode
-            oferecer.</p>
+          <!-- SERVICE 4 CONSULTORIA E ASSISTÊNCIA -->
+          <h3 class="services_h3" data-i18n="Body.Services.Consulting"> </h3>
+          <p class="about_services" data-i18n="Body.Services.Consulting2"></p>
         </div>
 
         <div class="col-md-4">
@@ -562,12 +541,10 @@
 
 
           </div>
-          <h3 class="services_h3"> SOCIAL MEDIA</h3>
-          <p class="about_services">Scroll, like, partilha, comenta — nas redes, tudo acontece num piscar de olhos. E é
-            nesse instante que a tua marca tem de brilhar. Criamos conteúdos que param o dedo, despertam conversas e
-            geram ligações reais. Planeamos, escrevemos, desenhamos e gerimos as tuas redes sociais com estratégia,
-            consistência e criatividade. Porque hoje, quem não comunica, não existe — e nós garantimos que a tua
-            presença se faz notar, todos os dias. Ativa o sininho!</p>
+
+          <!-- SERVICE 5 SOCIAL MEDIA -->
+          <h3 class="services_h3" data-i18n="Body.Services.Social"> </h3>
+          <p class="about_services" data-i18n="Body.Services.Social2"></p>
         </div>
 
 
@@ -588,48 +565,48 @@
           <div class="col-md-1 "></div>
           <div class="col-md-5 ">
 
-            <h3 class="services_h32"> Vamos pôr as ideias a mexer?</h3>
-            <p class="about_services2">
-              Se tens um projecto na cabeça (ou apenas uma boa confusão de ideias), fala connosco. Estamos prontos para
-              transformar o teu "e se..." num "já está!". O primeiro passo é simples: preenche o formulário — o resto
-              tratamos nós.
-            </p>
+            <h3 class="services_h32" data-i18n="Body.Form.Title"> </h3>
+            <p class="about_services2" data-i18n="Body.Form.About"></p>
           </div>
           <div class="col-md-5 mx-auto">
-            <h4 class="title_services">
-              Conte-nos mais sobre o seu projeto!
-            </h4>
+            <h4 class="title_services" data-i18n="Body.Form.Title2"></h4>
             <form id="contact-form" method="POST">
               <div class="contact_form-container">
                 <div>
                   <div>
-                    Nome
+                    <span data-i18n="Body.Form.Name"></span>
                     <input class="rounded-pill" type="text" name="name" placeholder="O seu nome" required />
                   </div>
                   <div>
-                    Email
+                    <span data-i18n="Body.Form.Email"></span>
                     <input class="rounded-pill" type="email" name="email" placeholder="O seu email" required />
                   </div>
-                  <div class="">
-                    Mensagem
-                    <input class="rounded-pill" type="text" name="message" placeholder="A sua mensagem"
-                      class="message_input" required />
+                  <div>
+                    <span data-i18n="Body.Form.Message"></span>
+                    <textarea rows="4" class="form-control" type="text" name="message" placeholder="A sua mensagem"
+                      required> </textarea>
                   </div>
                 </div>
               </div>
-              <div> <label>
+              <div style="margin-top: 4%; margin-bottom: 2%;"> <label>
                   <input type="checkbox" name="checkbox" required />
-                  Concordo com os termos e condições descritos na <a href="politicaprivacidade.html"
-                    class="linkmeu">política de privacidade. </a>
+                  <span data-i18n="Body.Form.Policies"></span>
+                  <a href="politicaprivacidade.html" class="linkmeu">
+                    <span data-i18n="Body.Form.Policies2"></span>
+                  </a>
                 </label>
               </div>
               <div class="g-recaptcha" data-sitekey="6LecyTsrAAAAAOfLNDtWil6vuUy0Ehp4GTP25Ch3"></div>
               <div class="btn-box contact_form-container" style="text-align: center;">
-                <button type="submit" class="rounded-pill">
-                  Enviar
+                <button type="submit" class="rounded-pill" data-i18n="Body.Form.Submit">
+                
                 </button>
               </div>
             </form>
+
+            <!-- TRADUZI ATÉ AQUI (  TRADUZIR PLACEHOLDERS DO FORM E MENSAGENS DO POPUP)-->
+
+            
             <div id="popup" class="popup hidden">
               <div class="popup-content">
                 <div id="resposta"></div>
