@@ -13,7 +13,7 @@ form.addEventListener('submit', async (e) => {
   const data = {
     nome: formData.get('name'),
     email: formData.get('email'),
-    mensagem: formData.get('message'),
+    message: formData.get('message'),
     identifier: 'mainSite',
     recaptchaToken: grecaptcha.getResponse() // token do Google reCAPTCHA
   };
