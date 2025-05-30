@@ -14,7 +14,7 @@ form.addEventListener('submit', async (e) => {
     nome: formData.get('name'),
     email: formData.get('email'),
     message: formData.get('message'),
-    identifier: this.document.baseURI.split('/').pop(), // Obtém o identificador da página atual
+    identifier: window.location.origin.split('/').pop(), // Obtém o identificador da página atual
     recaptchaToken: grecaptcha.getResponse() // token do Google reCAPTCHA
   };
 
