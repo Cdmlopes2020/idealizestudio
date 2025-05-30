@@ -14,6 +14,7 @@ form.addEventListener('submit', async (e) => {
     nome: formData.get('name'),
     email: formData.get('email'),
     mensagem: formData.get('message'),
+    identifier: 'mainSite',
     recaptchaToken: grecaptcha.getResponse() // token do Google reCAPTCHA
   };
 
@@ -25,7 +26,8 @@ form.addEventListener('submit', async (e) => {
   }
 
   try {
-    const response = await fetch('https://idealizestudio-server.onrender.com/enviar-email', {
+    //const response = await fetch('https://idealizestudio-server.onrender.com/enviar-email', {
+    const response = await fetch('https://idealizestudio-server.onrender.com/forwardEmail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -34,6 +36,7 @@ form.addEventListener('submit', async (e) => {
     });
 
     const result = await response.json();
+    console.log('Resposta do servidor:', result);
     respostaDiv.innerText = result.message;
     popup.classList.remove('hidden');
 
