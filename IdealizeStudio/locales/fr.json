@@ -1,55 +1,58 @@
 {
-  "Navbar": {
-    "Language": "Langue",
-    "Portuguese": "Portugais",
-    "English": "Anglais",
-    "French": "Français",
-    "Welcome": "Bienvenue",
-    "Contact": "Contact",
-    "About": "À propos de nous",
-    "Services": "Services",
-    "Portfolio": "Portfolio",
-    "Project": "Parlez-nous de votre projet"
-  },
-  "Body": {
-    "Intro": {
-      "Brand": "VOTRE MARQUE ?",
-      "NextProject": "NOTRE PROCHAIN PROJET !!",
-      "NextProjectText1": "Nous donnons vie aux idées et aidons les entreprises à se développer dans le monde numérique.",
-      "NextProjectText2": "Une entreprise spécialisée dans les solutions sur mesure.",
-      "Discount": "🔥 20% de réduction sur le premier projet! 🔥"
+    "Navbar": {
+        "Language": "Langue",
+        "Portuguese": "Portugais",
+        "English": "Anglais",
+        "French": "Français",
+        "Welcome": "Bienvenue",
+        "Contact": "Contact",
+        "About": "À propos de nous",
+        "Services": "Services",
+        "Portfolio": "Portfolio",
+        "Project": "Parlez-nous de votre projet"
     },
-    "About": {
-      "Title1": "Développement avec ",
-      "Title2": "créativité !",
-      "Aboutus": "QUI SOMMES-NOUS ?",
-      "Aboutus2": "Nous n’avons pas un garage rempli de voitures classiques, mais nous avons mieux : la volonté de faire bouger les choses. Nous sommes trois jeunes passionnés de créativité, de technologie et de la mentalité “et si on faisait autrement ?”. Nous construisons des marques de A à Z — du logo jusqu’au dernier pixel du site — avec des stratégies affûtées, des logiciels sur mesure et des solutions simples à utiliser.",
-      "Brand": "NOTRE MARQUE",
-      "Brand2": "Elle est née de l’envie de faire les choses autrement — et mieux. Ce n’est pas qu’un joli nom ou un logo stylé. C’est une attitude, une vision et le désir de créer des choses significatives. Notre marque reflète nos convictions : un design intentionnel, une stratégie inspirée et des solutions digitales qui aident vraiment les marques à grandir."
-    },
-    "Services": {
-      "Title": "QUE FAISONS-NOUS ?",
-      "Design": "DESIGN GRAPHIQUE & BRANDING",
-      "Design2": "Lignes, couleurs, formes... ça semble simple, non ? Mais derrière chaque logo mémorable et chaque identité visuelle marquante, il y a de la stratégie, de l’intuition et un regard affûté. Nous créons des marques qui racontent une histoire, des designs porteurs de sens et des visuels qui marquent les esprits. Du premier croquis au guide de marque, nous donnons à votre marque un visage, une voix et une attitude — sans clichés, sans copier-coller. Juste de l’authenticité avec du style.",
-      "Web": "WEB & APPLICATIONS",
-      "Web2": "HTML, CSS, React, WordPress, Shopify... ça vous semble magique ? Peut-être. Mais pour nous, c’est le langage que nous utilisons pour construire des mondes digitaux. Nous créons ici des sites web éblouissants, des boutiques en ligne qui se vendent toutes seules et des applications qui vous donnent envie de cliquer. Si vous pouvez l’imaginer, nous pouvons le réaliser — avec une touche de magie (et beaucoup de code en coulisses).",
-      "Marketing": "MARKETING & PUBLICITÉ",
-      "Marketing2": "Publications, pubs, emails, algorithmes... ça semble chaotique, mais pour nous c’est de la pure stratégie. Nous connectons les marques aux gens avec des idées percutantes et des campagnes inoubliables. Du concept au clic, nous créons des messages qui vendent, du contenu qui parle et des mouvements qui ont de l’impact. Nous ne crions pas — nous communiquons avec intention. Car dans un monde bruyant, nous savons comment faire entendre votre marque.",
-      "Consulting": "CONSEIL & SUPPORT",
-      "Consulting2": "Vous sentez que votre marque pourrait faire plus mais vous ne savez pas par où commencer ? Nous, oui. Nous vous aidons à aligner vision, stratégie et présence digitale pour que votre entreprise parle plus fort — et plus clairement. Nous analysons, ajustons et traçons des chemins stratégiques. Si quelque chose casse, on le répare. Si vous ne savez pas ce qui ne va pas, on le trouve. Notre équipe est prête à résoudre les problèmes avec rapidité, précision et la confiance de ceux qui maîtrisent le système.",
-      "Social": "RÉSEAUX SOCIAUX",
-      "Social2": "Scroll, like, partage, commentaire — tout se passe en un clin d’œil sur les réseaux sociaux. C’est le moment pour votre marque de briller. Nous créons du contenu qui arrête le scroll, déclenche des conversations et construit des connexions réelles. Nous planifions, écrivons, concevons et gérons vos réseaux sociaux avec stratégie, régularité et créativité. Car aujourd’hui, si vous ne communiquez pas, vous n’existez pas — et nous ferons en sorte que votre présence soit remarquée, chaque jour. Activez la cloche !"
-    },
-    "Form": {
-      "Title": "Prêt à faire bouger les idées ?",
-      "About": "Vous avez un projet en tête (ou juste un tas d’idées créatives) ? Parlez-nous-en. Nous sommes prêts à transformer votre ‘et si...’ en ‘c’est fait !’. La première étape est simple : remplissez le formulaire — nous nous occupons du reste.",
-      "Title2": "Parlez-nous de votre projet !",
-      "Name": "Nom",
-      "Email": "Email",
-      "Message": "Message",
-      "Policies": "J’accepte les termes et conditions décrits dans la",
-      "Policies2": "politique de confidentialité.",
-      "Submit": "Envoyer"
+    "Body": {
+        "Intro": {
+            "Brand": "VOTRE MARQUE ?",
+            "NextProject": "NOTRE PROCHAIN PROJET !!",
+            "NextProjectText1": "Nous donnons vie aux idées et aidons les entreprises à se développer dans le monde numérique.",
+            "NextProjectText2": "Une entreprise spécialisée dans les solutions sur mesure.",
+            "Discount": "🔥 20% de réduction sur le premier projet! 🔥"
+        },
+        "About": {
+            "Title1": "Développement avec ",
+            "Title2": "créativité !",
+            "Aboutus": "QUI SOMMES-NOUS ?",
+            "Aboutus2": "Nous n’avons pas un garage rempli de voitures classiques, mais nous avons mieux : la volonté de faire bouger les choses. Nous sommes trois jeunes passionnés de créativité, de technologie et de la mentalité “et si on faisait autrement ?”. Nous construisons des marques de A à Z — du logo jusqu’au dernier pixel du site — avec des stratégies affûtées, des logiciels sur mesure et des solutions simples à utiliser.",
+            "Brand": "NOTRE MARQUE",
+            "Brand2": "Elle est née de l’envie de faire les choses autrement — et mieux. Ce n’est pas qu’un joli nom ou un logo stylé. C’est une attitude, une vision et le désir de créer des choses significatives. Notre marque reflète nos convictions : un design intentionnel, une stratégie inspirée et des solutions digitales qui aident vraiment les marques à grandir."
+        },
+        "Services": {
+            "Title": "QUE FAISONS-NOUS ?",
+            "Design": "DESIGN GRAPHIQUE & BRANDING",
+            "Design2": "Lignes, couleurs, formes... ça semble simple, non ? Mais derrière chaque logo mémorable et chaque identité visuelle marquante, il y a de la stratégie, de l’intuition et un regard affûté. Nous créons des marques qui racontent une histoire, des designs porteurs de sens et des visuels qui marquent les esprits. Du premier croquis au guide de marque, nous donnons à votre marque un visage, une voix et une attitude — sans clichés, sans copier-coller. Juste de l’authenticité avec du style.",
+            "Web": "WEB & APPLICATIONS",
+            "Web2": "HTML, CSS, React, WordPress, Shopify... ça vous semble magique ? Peut-être. Mais pour nous, c’est le langage que nous utilisons pour construire des mondes digitaux. Nous créons ici des sites web éblouissants, des boutiques en ligne qui se vendent toutes seules et des applications qui vous donnent envie de cliquer. Si vous pouvez l’imaginer, nous pouvons le réaliser — avec une touche de magie (et beaucoup de code en coulisses).",
+            "Marketing": "MARKETING & PUBLICITÉ",
+            "Marketing2": "Publications, pubs, emails, algorithmes... ça semble chaotique, mais pour nous c’est de la pure stratégie. Nous connectons les marques aux gens avec des idées percutantes et des campagnes inoubliables. Du concept au clic, nous créons des messages qui vendent, du contenu qui parle et des mouvements qui ont de l’impact. Nous ne crions pas — nous communiquons avec intention. Car dans un monde bruyant, nous savons comment faire entendre votre marque.",
+            "Consulting": "CONSEIL & SUPPORT",
+            "Consulting2": "Vous sentez que votre marque pourrait faire plus mais vous ne savez pas par où commencer ? Nous, oui. Nous vous aidons à aligner vision, stratégie et présence digitale pour que votre entreprise parle plus fort — et plus clairement. Nous analysons, ajustons et traçons des chemins stratégiques. Si quelque chose casse, on le répare. Si vous ne savez pas ce qui ne va pas, on le trouve. Notre équipe est prête à résoudre les problèmes avec rapidité, précision et la confiance de ceux qui maîtrisent le système.",
+            "Social": "RÉSEAUX SOCIAUX",
+            "Social2": "Scroll, like, partage, commentaire — tout se passe en un clin d’œil sur les réseaux sociaux. C’est le moment pour votre marque de briller. Nous créons du contenu qui arrête le scroll, déclenche des conversations et construit des connexions réelles. Nous planifions, écrivons, concevons et gérons vos réseaux sociaux avec stratégie, régularité et créativité. Car aujourd’hui, si vous ne communiquez pas, vous n’existez pas — et nous ferons en sorte que votre présence soit remarquée, chaque jour. Activez la cloche !"
+        },
+        "Form": {
+            "Title": "Prêt à faire bouger les idées ?",
+            "About": "Vous avez un projet en tête (ou juste un tas d’idées créatives) ? Parlez-nous-en. Nous sommes prêts à transformer votre ‘et si...’ en ‘c’est fait !’. La première étape est simple : remplissez le formulaire — nous nous occupons du reste.",
+            "Title2": "Parlez-nous de votre projet !",
+            "Name": "Nom",
+            "Email": "Email",
+            "Message": "Message",
+            "Policies": "J’accepte les termes et conditions décrits dans la",
+            "Policies2": "politique de confidentialité.",
+            "Submit": "Envoyer",
+            "PlaceholderName": "Votre nom",
+            "PlaceholderEmail": "Votre e-mail",
+            "PlaceholderMessage": "Votre message"
+        }
     }
-  }
 }

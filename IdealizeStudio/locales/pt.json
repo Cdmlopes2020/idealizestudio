@@ -19,42 +19,40 @@
             "NextProjectText2": "Empresa especializada em soluções personalizadas.",
             "Discount": "🔥 20% Desconto no Primeiro Projeto! 🔥"
         },
-       
         "About": {
             "Title1": "Desenvolvimento com ",
             "Title2": "criatividade!",
             "Aboutus": "QUEM SOMOS?",
-            "Aboutus2":"Não temos uma garagem com grandes clássicos, mas temos algo melhor: vontade de fazer acontecer. Somos três jovens com queda para a criatividade, a tecnologia e o “e se fizéssemos diferente?”. Trabalhamos marcas de cima a baixo, do logótipo ao último pixel do site, com estratégias afinadas, softwares personalizados e soluções que não vêm com manuais complicados.",
-            "Brand":"A NOSSA MARCA",
-            "Brand2":"Nasceu da vontade de fazer diferente — e melhor. Não é só um nome bonito nem um logótipo com bom ar. É atitude, visão e vontade de criar coisas com impacto. A nossa marca é reflexo daquilo em que acreditamos: design com propósito, estratégia com alma e soluções digitais que realmente ajudam marcas a crescer."
+            "Aboutus2": "Não temos uma garagem com grandes clássicos, mas temos algo melhor: vontade de fazer acontecer. Somos três jovens com queda para a criatividade, a tecnologia e o “e se fizéssemos diferente?”. Trabalhamos marcas de cima a baixo, do logótipo ao último pixel do site, com estratégias afinadas, softwares personalizados e soluções que não vêm com manuais complicados.",
+            "Brand": "A NOSSA MARCA",
+            "Brand2": "Nasceu da vontade de fazer diferente — e melhor. Não é só um nome bonito nem um logótipo com bom ar. É atitude, visão e vontade de criar coisas com impacto. A nossa marca é reflexo daquilo em que acreditamos: design com propósito, estratégia com alma e soluções digitais que realmente ajudam marcas a crescer."
         },
-
-         "Services": {
-                "Title":"O QUE FAZEMOS?",
-                "Design":"DESIGN GRÁFICO & BRANDING",
-                "Design2":"Linhas, cores, formas… parece simples. Mas por trás de cada logótipo memorável e  identidade visual marcante, há estratégia, intuição e muito olho clínico. Criamos marcas que contam histórias, designs que respiram propósito e imagens que ficam na memória. Do primeiro rabisco ao manual de marca, damos cara, voz e atitude à tua marca — sem clichés, sem copiar ninguém. Só autenticidade com estilo.",
-                "Web":"WEB & APPS",
-                "Web2":"HTML, CSS, React, WordPress, Shopify… parece magia? Para muitos, sim. Para nós, é a linguagem com que construímos universos digitais. Daqui nascem sites que brilham, lojas online que vendem sozinhas e apps que até fazem os dedos querer dançar. Se consegues imaginá-lo, nós damos-lhe vida no ecrã — com um toque de magia (e muito código por trás).",
-                "Marketing":"MARKETING & PUBLICIDADE",
-                "Marketing2":"Posts, ads, e-mails, algoritmos… parece caos, mas para nós é estratégia pura. Ligamos marcas a pessoas com ideias que prendem o olhar e campanhas que ficam na cabeça (e no coração). Desde o conceito até ao clique, criamos mensagens que vendem, conteúdos que contam e movimentos que marcam. Não gritamos — comunicamos com intenção. Porque no meio do ruído, sabemos como fazer a tua marca ser ouvida.",
-                "Consulting":"CONSULTORIA & ASSISTÊNCIA",
-                "Consulting2":"Sentes que a tua marca podia dar mais, mas não sabes por onde começar? Nós sabemos. Ajudamos-te a alinhar visão, estratégia e presença digital para que o teu negócio fale mais alto — e mais claro. Analisamos, ajustamos e traçamos caminhos com propósito. Se algo falha, nós reparamos. Se não sabes o que está mal, nós descobrimos. A nossa equipa está pronta para resolver problemas com rapidez, precisão e aquele toque de confiança que só quem domina o sistema pode oferecer.",
-                "Social":"SOCIAL MEDIA",
-                "Social2":"Scroll, like, partilha, comenta — nas redes, tudo acontece num piscar de olhos. E é nesse instante que a tua marca tem de brilhar. Criamos conteúdos que param o dedo, despertam conversas e geram ligações reais. Planeamos, escrevemos, desenhamos e gerimos as tuas redes sociais com estratégia, consistência e criatividade. Porque hoje, quem não comunica, não existe — e nós garantimos que a tua presença se faz notar, todos os dias. Ativa o sininho!"
-         },
-
-         "Form":{
-                "Title":"Vamos pôr as ideias a mexer?",
-                "About":"Se tens um projecto na cabeça (ou apenas uma boa confusão de ideias), fala connosco. Estamos prontos para transformar o teu 'e se...' num 'já está!'. O primeiro passo é simples: preenche o formulário — o resto tratamos nós.",
-                "Title2":"Conte-nos mais sobre o seu projeto!",
-                "Name":"Nome",
-                "Email":"Email",
-                "Message":"Mensagem",
-                "Policies":"Concordo com os termos e condições descritos na",
-                "Policies2":"política de privacidade.",
-                "Submit":"Enviar"
-         }
-
-
+        "Services": {
+            "Title": "O QUE FAZEMOS?",
+            "Design": "DESIGN GRÁFICO & BRANDING",
+            "Design2": "Linhas, cores, formas… parece simples. Mas por trás de cada logótipo memorável e  identidade visual marcante, há estratégia, intuição e muito olho clínico. Criamos marcas que contam histórias, designs que respiram propósito e imagens que ficam na memória. Do primeiro rabisco ao manual de marca, damos cara, voz e atitude à tua marca — sem clichés, sem copiar ninguém. Só autenticidade com estilo.",
+            "Web": "WEB & APPS",
+            "Web2": "HTML, CSS, React, WordPress, Shopify… parece magia? Para muitos, sim. Para nós, é a linguagem com que construímos universos digitais. Daqui nascem sites que brilham, lojas online que vendem sozinhas e apps que até fazem os dedos querer dançar. Se consegues imaginá-lo, nós damos-lhe vida no ecrã — com um toque de magia (e muito código por trás).",
+            "Marketing": "MARKETING & PUBLICIDADE",
+            "Marketing2": "Posts, ads, e-mails, algoritmos… parece caos, mas para nós é estratégia pura. Ligamos marcas a pessoas com ideias que prendem o olhar e campanhas que ficam na cabeça (e no coração). Desde o conceito até ao clique, criamos mensagens que vendem, conteúdos que contam e movimentos que marcam. Não gritamos — comunicamos com intenção. Porque no meio do ruído, sabemos como fazer a tua marca ser ouvida.",
+            "Consulting": "CONSULTORIA & ASSISTÊNCIA",
+            "Consulting2": "Sentes que a tua marca podia dar mais, mas não sabes por onde começar? Nós sabemos. Ajudamos-te a alinhar visão, estratégia e presença digital para que o teu negócio fale mais alto — e mais claro. Analisamos, ajustamos e traçamos caminhos com propósito. Se algo falha, nós reparamos. Se não sabes o que está mal, nós descobrimos. A nossa equipa está pronta para resolver problemas com rapidez, precisão e aquele toque de confiança que só quem domina o sistema pode oferecer.",
+            "Social": "SOCIAL MEDIA",
+            "Social2": "Scroll, like, partilha, comenta — nas redes, tudo acontece num piscar de olhos. E é nesse instante que a tua marca tem de brilhar. Criamos conteúdos que param o dedo, despertam conversas e geram ligações reais. Planeamos, escrevemos, desenhamos e gerimos as tuas redes sociais com estratégia, consistência e criatividade. Porque hoje, quem não comunica, não existe — e nós garantimos que a tua presença se faz notar, todos os dias. Ativa o sininho!"
+        },
+        "Form": {
+            "Title": "Vamos pôr as ideias a mexer?",
+            "About": "Se tens um projecto na cabeça (ou apenas uma boa confusão de ideias), fala connosco. Estamos prontos para transformar o teu 'e se...' num 'já está!'. O primeiro passo é simples: preenche o formulário — o resto tratamos nós.",
+            "Title2": "Conte-nos mais sobre o seu projeto!",
+            "Name": "Nome",
+            "Email": "Email",
+            "Message": "Mensagem",
+            "Policies": "Concordo com os termos e condições descritos na",
+            "Policies2": "política de privacidade.",
+            "Submit": "Enviar",
+            "PlaceholderName": "O seu nome",
+            "PlaceholderEmail": "O seu email",
+            "PlaceholderMessage": "A sua mensagem"
+        }
     }
 }

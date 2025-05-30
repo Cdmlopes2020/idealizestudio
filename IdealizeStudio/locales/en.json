@@ -49,7 +49,10 @@
             "Message": "Message",
             "Policies": "I agree with the terms and conditions described in the",
             "Policies2": "privacy policy.",
-            "Submit": "Send"
+            "Submit": "Send",
+            "PlaceholderName": "Your name",
+            "PlaceholderEmail": "Your email",
+            "PlaceholderMessage": "Your message"
         }
     }
 }
