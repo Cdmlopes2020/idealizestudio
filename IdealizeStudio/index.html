@@ -37,9 +37,10 @@
     <header class="header_section">
 
       <div class="imagem_container">
-        <p class="anuncio_texto" id="anuncio" data-i18n="Body.Intro.Discount">
+        <div class="anuncio_box">
+          <p class="anuncio_texto" id="anuncio" data-i18n="Body.Intro.Discount"></p>
           <button class="fechar_anuncio" onclick="fecharAnuncio()">✕</button>
-        </p>
+        </div>
       </div>
 
 
@@ -578,15 +579,18 @@
                 <div>
                   <div>
                     <span data-i18n="Body.Form.Name"></span>
-                    <input class="rounded-pill" type="text" name="name" data-i18n-placeholder="Body.Form.PlaceholderName" placeholder="O seu nome" required />
+                    <input class="rounded-pill" type="text" name="name"
+                      data-i18n-placeholder="Body.Form.PlaceholderName" placeholder="O seu nome" required />
                   </div>
                   <div>
                     <span data-i18n="Body.Form.Email"></span>
-                    <input class="rounded-pill" type="email" name="email" data-i18n-placeholder="Body.Form.PlaceholderEmail" placeholder="O seu email" required />
+                    <input class="rounded-pill" type="email" name="email"
+                      data-i18n-placeholder="Body.Form.PlaceholderEmail" placeholder="O seu email" required />
                   </div>
                   <div>
                     <span data-i18n="Body.Form.Message"></span>
-                    <textarea rows="4" class="form-control" type="text" name="message" data-i18n-placeholder="Body.Form.PlaceholderMessage" placeholder="A sua mensagem"
+                    <textarea rows="4" class="form-control" type="text" name="message"
+                      data-i18n-placeholder="Body.Form.PlaceholderMessage" placeholder="A sua mensagem"
                       required> </textarea>
                   </div>
                 </div>
@@ -602,14 +606,14 @@
               <div class="g-recaptcha" data-sitekey="6LecyTsrAAAAAOfLNDtWil6vuUy0Ehp4GTP25Ch3"></div>
               <div class="btn-box contact_form-container" style="text-align: center;">
                 <button type="submit" class="rounded-pill" data-i18n="Body.Form.Submit">
-                
+
                 </button>
               </div>
             </form>
 
             <!-- TRADUZI ATÉ AQUI (  TRADUZIR PLACEHOLDERS DO FORM E MENSAGENS DO POPUP)-->
 
-            
+
             <div id="popup" class="popup hidden">
               <div class="popup-content">
                 <div id="resposta"></div>
