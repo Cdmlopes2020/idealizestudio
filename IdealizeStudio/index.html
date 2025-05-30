@@ -573,7 +573,7 @@
           </div>
           <div class="col-md-5 mx-auto">
             <h4 class="title_services" data-i18n="Body.Form.Title2"></h4>
-            <form id="contact-form" method="POST">
+            <form id="contact-form" method="POST" action="/forwardEmail" class="contact_form">
               <div class="contact_form-container">
                 <div>
                   <div>
@@ -602,6 +602,7 @@
                   </a>
                 </label>
               </div>
+              <input type="hidden" name="identifier" value="mainSite">
               <div class="g-recaptcha" data-sitekey="6LecyTsrAAAAAOfLNDtWil6vuUy0Ehp4GTP25Ch3"></div>
               <div class="btn-box contact_form-container" style="text-align: center;">
                 <button type="submit" class="rounded-pill" data-i18n="Body.Form.Submit">
