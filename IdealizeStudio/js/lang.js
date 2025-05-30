@@ -3,7 +3,7 @@ let translations = {};
 async function setLanguage(lang) {
   const res = await fetch(`locales/${lang}.json`);
   translations = await res.json();
-  localStorage.setItem('lang', lang); // <-- guarda aqui
+  localStorage.setItem('lang', lang);
   translatePage();
 }
 
@@ -14,6 +14,15 @@ function translatePage() {
     const value = getNestedTranslation(key);
     if (value) {
       el.innerText = value;
+    }
+  });
+
+  const placeholders = document.querySelectorAll('[data-i18n-placeholder]');
+  placeholders.forEach(el => {
+    const key = el.getAttribute('data-i18n-placeholder');
+    const value = getNestedTranslation(key);
+    if (value) {
+      el.placeholder = value;
     }
   });
 }
