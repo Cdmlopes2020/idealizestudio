@@ -47,12 +47,12 @@
             "Name": "Nome",
             "Email": "Email",
             "Message": "Mensagem",
-            "Policies": "Concordo com os termos e condições descritos na",
+            "Policies": "Li e aceito a",
             "Policies2": "política de privacidade.",
             "Submit": "Enviar",
-            "PlaceholderName": "O seu nome",
-            "PlaceholderEmail": "O seu email",
-            "PlaceholderMessage": "A sua mensagem"
+            "PlaceholderName": "Nome",
+            "PlaceholderEmail": "Email",
+            "PlaceholderMessage": "Mensagem"
         }
     }
 }

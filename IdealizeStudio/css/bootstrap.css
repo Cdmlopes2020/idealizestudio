@@ -221,10 +221,6 @@ th {
   text-align: inherit;
 }
 
-label {
-  display: inline-block;
-  margin-bottom: 0.5rem;
-}
 
 button {
   border-radius: 0;
@@ -1887,9 +1883,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #80bdff;
+  border-color: #000000;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(13, 13, 14, 0.25);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -3687,8 +3683,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #007bff;
-  background-color: #007bff;
+  border-color: #000000;
+  background-color: #000000;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3696,11 +3692,11 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(0, 123, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
-  background-color: rgba(0, 123, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .custom-radio .custom-control-label::before {

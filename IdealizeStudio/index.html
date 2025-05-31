@@ -114,25 +114,26 @@
     </div>
   </div>
   <!-- QUEM SOMOS-->
-  <div id="sobrenos" class="container sobrenos">
-    <div class="row">
-      <div class="col center ">
-        <img class="image_quemsomos" src="images/Simple_500pxbranco.png">
-        <h2 class="title_format_1" data-i18n="Body.About.Title1"></h2>
-        <h2 class="title_format_1" data-i18n="Body.About.Title2"></h2>
-        <img class="image_quemsomos2" src="images/ChatGPT Image 13_05_2025, 22_05_47.png">
-      </div>
-      <div class="col direita">
-        <h3 class="format_text_1" data-i18n="Body.About.Aboutus"> </h3>
-        <p class="format_text_2" data-i18n="Body.About.Aboutus2"> </p>
+  <section class="white">
+    <div id="sobrenos" class="container">
+      <div class="row">
+        <div class="col-md-6" style="margin-top: 10%;margin-bottom: 10%;">
+          <img src="images/letterSudiopreto.png" style="margin-bottom: 2.5rem; width: 55%; margin-top: 5rem;">
+          <h2 class="title_format_1" data-i18n="Body.About.Title1"></h2>
+          <h2 class="title_format_1" data-i18n="Body.About.Title2"></h2>
 
-        <h3 class="format_text_1" data-i18n="Body.About.Brand"> </h3>
-        <p class="format_text_2" data-i18n="Body.About.Brand2"> </p>
+        </div>
+        <div class="col-md-6" style="margin-top: 10%;margin-bottom: 10%;">
+          <h3 class="format_text_3" data-i18n="Body.About.Aboutus"> </h3>
+          <p class="format_text_2" data-i18n="Body.About.Aboutus2"> </p>
+
+          <h3 class="format_text_3" data-i18n="Body.About.Brand"> </h3>
+          <p class="format_text_2" data-i18n="Body.About.Brand2"> </p>
+        </div>
       </div>
     </div>
-  </div>
 
-
+  </section>
 
 
 
@@ -559,56 +560,82 @@
 
   <!-- contact section -->
 
-  <section class="contact_section layout_padding white">
+  <section class="contact_section layout_padding ">
 
     <div class="container" id="formcontacto">
 
-      <dv class="">
+      <div class="">
         <div class="row">
-          <div class="col-md-1 "></div>
-          <div class="col-md-5 ">
+          <div class="col-md-6 ">
 
             <h3 class="services_h32" data-i18n="Body.Form.Title"> </h3>
             <p class="about_services2" data-i18n="Body.Form.About"></p>
           </div>
-          <div class="col-md-5 mx-auto">
-            <h4 class="title_services" data-i18n="Body.Form.Title2"></h4>
-            <form id="contact-form" method="POST" class="contact_form">
-              <div class="contact_form-container">
-                <div>
-                  <div>
-                    <span data-i18n="Body.Form.Name"></span>
-                    <input class="rounded-pill" type="text" name="name"
-                      data-i18n-placeholder="Body.Form.PlaceholderName" placeholder="O seu nome" required />
-                  </div>
-                  <div>
-                    <span data-i18n="Body.Form.Email"></span>
-                    <input class="rounded-pill" type="email" name="email"
-                      data-i18n-placeholder="Body.Form.PlaceholderEmail" placeholder="O seu email" required />
-                  </div>
-                  <div>
-                    <span data-i18n="Body.Form.Message"></span>
-                    <textarea rows="4" class="form-control" type="text" name="message"
-                      data-i18n-placeholder="Body.Form.PlaceholderMessage" placeholder="A sua mensagem"
-                      required> </textarea>
-                  </div>
-                </div>
-              </div>
-              <div style="margin-top: 4%; margin-bottom: 2%;"> <label>
-                  <input type="checkbox" name="checkbox" required />
-                  <span data-i18n="Body.Form.Policies"></span>
-                  <a href="politicaprivacidade.html" class="linkmeu">
-                    <span data-i18n="Body.Form.Policies2"></span>
-                  </a>
-                </label>
-              </div>
-              <div class="g-recaptcha" data-sitekey="6LecyTsrAAAAAOfLNDtWil6vuUy0Ehp4GTP25Ch3"></div>
-              <div class="btn-box contact_form-container" style="text-align: center;">
-                <button type="submit" class="rounded-pill" data-i18n="Body.Form.Submit">
+          <div class="col-md-6 mx-auto">
+            <!--<h4 class="title_services" data-i18n="Body.Form.Title2"></h4>-->
 
-                </button>
+            <form id="contact-form" method="POST" class="">
+             
+                
+                  <div>
+                    <!--<span data-i18n="Body.Form.Name"></span>-->
+                    <input  size="40" class="input2" type="text" name="name" data-i18n-placeholder="Body.Form.PlaceholderName"
+                      required />
+                  </div>
+                  <div>
+                    <!-- <span data-i18n="Body.Form.Email"></span>-->
+                    <input class="input2" type="email" name="email" data-i18n-placeholder="Body.Form.PlaceholderEmail"
+                      required />
+                  </div>
+                  <div>
+                    <!--<span data-i18n="Body.Form.Message"></span>-->
+                    <textarea rows="4" name="message" placeholder=""
+                      data-i18n-placeholder="Body.Form.PlaceholderMessage" required></textarea>
+                  </div>
+               
+            
+              
+            <div class="minelabel">
+
+                  <input  type="checkbox" name="checkbox" required />
+                  <span data-i18n="Body.Form.Policies"></span>
+                  <a href="politicaprivacidade.html" class="linkmeu2" data-i18n="Body.Form.Policies2"></a>
+
+
+
+            </div>
+              
+
+
+               <!-- <div class="g-recaptcha" data-sitekey="6LecyTsrAAAAAOfLNDtWil6vuUy0Ehp4GTP25Ch3"></div>-->
+              <div class="" style="text-align: right;">
+
+
+
+                <button type="submit" class="minebutton" data-i18n="Body.Form.Submit"></button>
               </div>
             </form>
+
+
+
+            <style>
+              .minebutton{
+                color: rgb(0, 0, 0);
+                border: none;
+                font-family: monospace;
+                font-weight: 700;
+
+              }
+               .minebutton:hover{
+                color:  #ecb246;
+                border: none;
+                font-family: monospace;
+                font-weight: 700;
+                text-decoration: underline;
+              }
+              
+              
+            </style>
 
             <!-- TRADUZI ATÉ AQUI (  TRADUZIR PLACEHOLDERS DO FORM E MENSAGENS DO POPUP)-->
 
@@ -621,7 +648,7 @@
             </div>
           </div>
         </div>
-    </div>
+      </div>
     </div>
   </section>
 
@@ -638,11 +665,12 @@
                 Idealize <i>Studio </i>
               </span>
             </a>
-            <a class="linkmeu" href="/">
-              IdealizeStudio
-            </a>
+            
             <a class="linkmeu" href="politicaprivacidade.html">
               Política de privacidade.
+            </a>
+            <a class="linkmeu" href="">
+              Livro de Reclamações
             </a>
           </div>
         </div>
@@ -658,12 +686,12 @@
             <a class="">
               <i class="fa fa-phone" aria-hidden="true"></i>
               <span class="parahover">
-                935251848 | 927404221 <p class="italic_footer">(Chamada para rede móvel nacional)</p>
+                +351 935251848 | +351 927404221 <p class="italic_footer">Chamada para rede móvel nacional</p>
               </span>
             </a>
             <a class="">
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span>
+              <span class="parahover">
                 geral@idealize.pt
               </span>
             </a>

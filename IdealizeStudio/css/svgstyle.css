@@ -2,22 +2,22 @@
 
 
       .cls-2 {
-        fill: black;
+        fill: rgb(255, 255, 255);
       }
       
 
       .cls-3 {
-        fill: black;
+        fill: rgb(255, 255, 255);
       }
       
       .cls-3, .cls-4 {
         fill: none;
-        stroke: black;
+        stroke: rgb(255, 255, 255);
         stroke-miterlimit: 10;
       }
 
       .cls-5 {
-        fill: black;
+        fill: rgb(255, 255, 255);
       }
 
       .cls-4 {
@@ -27,28 +27,28 @@
   
       
       .cls-7 {
-        fill: black;
+        fill: rgb(255, 255, 255);
       }
 
       .cls-8 {
-        fill: black;
+        fill: rgb(255, 255, 255);
       }
     
      
 
       .cls-10 {
-        fill: black;
+        fill: rgb(255, 255, 255);
       }
 
       .cls-11 {
-        fill: black;
+        fill: rgb(255, 255, 255);
       }
       
     
       
 
       .cls-16 {
-        stroke: black;
+        stroke: rgb(255, 255, 255);
       }
 
       .cls-16, .cls-17 {
@@ -58,11 +58,12 @@
       }
 
       .cls-17 {
-        stroke: black;
+        stroke: rgb(255, 255, 255);
       }
  
      #svg1:hover{
       scale: 90%;
+      
      }
      #svg2:hover{
       scale: 90%;
