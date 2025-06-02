@@ -30,6 +30,81 @@ canvas {
   z-index: -1;
 }
 
+.Portfoliotitle{
+
+  color: #000000;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+
+
+.portfoliosubtittle{
+  color: #000;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1rem;
+  margin-left: 20%;
+   margin-right: 20%;
+    border-bottom: 1px solid #000000;
+}
+
+.portfoliosection {
+
+  background-color: #f3f3f3;
+}
+
+.porftolioimage {
+  width: 100%;
+}
+
+.porftolioimage:hover{
+
+  transform: rotate(-1deg)  ;/* rotação ligeira no sentido anti-horário ao passar o rato */
+  transition: transform 0.3s ease;
+ 
+}
+
+.project-line {
+  border-bottom: 1px solid #000000;
+  margin: 1.5rem 0;
+  padding-bottom: 1rem;
+}
+
+.portfoliocategory {
+  color: #666666;
+  font-family: monospace;
+}
+
+.portfolioname {
+
+  color: #000000;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+.clientesimg{
+ 
+  width: 90%;
+  opacity: 20%;
+}
+.clientesimg:hover{
+ 
+  width: 90%;
+  opacity: 90%;
+}
+
+
+.clientes{
+  padding-top: 3rem;
+ padding-bottom: 3rem;
+  
+  text-align: center;
+  background-color: #0c0c0c;
+}
+
 /* ÍNICIO DA FORMATAÇÃO DA BARRA DE 20% DE DESCONTO*/
 .imagem_container {
   position: relative;
@@ -155,6 +230,15 @@ canvas {
   font-size: 0.8rem;
 }
 
+.linkmeu3 {
+
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  margin-left: 4px;
+  font-size: 0.8rem;
+}
+
+
 .linkmeu2:hover {
 
   color: #ecb246;
@@ -166,6 +250,13 @@ canvas {
   color: #ecb246;
   text-decoration: underline;
 }
+
+.linkmeu3:hover {
+
+  color: #ecb246;
+  text-decoration: underline;
+}
+
 
 
 .minelabel {
@@ -222,8 +313,8 @@ textarea {
 }
 
 .title_services {
-  color: #ecb246;
-  font-weight: 700;
+  color: #ffffff;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -1012,7 +1103,8 @@ a:focus {
   font-size: 0.55rem;
   color: #929292;
 }
-.parahover{
+
+.parahover {
   font-size: 0.85rem;
   color: #ffffff;
 }
